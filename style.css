@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.image {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    border: 5px solid #333;
+    border-radius: 5px;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.fact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+   
+}
+
+.fact {
+    flex-basis: 30%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(218, 212, 212);
+}
+
+.fact:hover {
+    transform: scale(1.05);
+}
+
+.fact h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.link-button:hover {
+    background-color: #555;
+}
+.box{
+width: 900px;
+margin: 0%;
+padding: 1%;
+background-color: black;
+
+}
